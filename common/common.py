@@ -1,5 +1,5 @@
 def loadData(folder, parseInt=False):
-    with open(folder+"/input.txt", "r") as file:
+    with open(folder+"\input.txt", "r") as file:
         values = file.read().splitlines()
     if parseInt:
         valuesInt = []
